@@ -1,0 +1,320 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 0px){
+
+    header nav{
+        flex-direction: column;
+    }
+    .inicio .imagenes .img-inicio{
+                display: none;
+        }
+}
+@media only screen and (min-width: 600px) {
+    /*----INDEX----*/
+    .inicio .inicio-parrafo h1{
+                margin-top: 10%;
+                color: rgb(55, 167, 207);
+                font-size: 5vw;
+    }
+    .inicio .imagenes .img-inicio{
+        display: none;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+
+header nav{
+    flex-direction: row;
+}
+
+    /*----main----*/
+    
+/*----EQUIPO----*/
+.equipo{
+    justify-content: center;}
+.equipo .especificacion{
+        .col-4{width: 35%;}
+        .col-5{width: 25%;}
+        border: 1px solid rgb(136, 174, 247);
+        border-radius: 20px 20px 20px 20px;
+        margin: 20px 10px;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;}
+.equipo .especificacion img{
+            width: 100%;
+        }
+.equipo .especificacion .espec-equipo{
+            justify-content: center;
+            flex-direction: row;}
+.equipo .especificacion .espec-equipo h2{
+                margin: 20px;
+                font-size: 40px;
+                color: rgb(55, 167, 207);
+            }
+.equipo .especificacion .espec-equipo h3{
+                padding: 20px;
+                font-size: 30px;
+                color: rgb(55, 167, 207);
+            }
+.equipo .especificacion .espec-equipo p{
+                padding: 20px;
+                margin: 20px 0px;
+            font-size: 20px;
+        color: rgb(55, 167, 207);
+    }
+
+/*----NOSOTROS----*/
+.nos .col-3{width: 30%;}
+.nos{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*----ALQUILERES----*/
+.div-alq-contenedor{
+    padding: 20%;
+}
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) {
+.inicio .inicio-parrafo{
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 5% 10% 5% 10%;
+            color: rgb(55, 167, 207);
+            text-align: center;
+        }
+    .galeria-cuadro div .col-6{
+        width: 20%;
+    }
+        /*---ALQUILERES--*/
+        .div-alq-contenedor .col-6{
+            width: 25%;
+        }
+    
+        /*---NOSOTROS--*/
+        .nos .col-3{width: 35%;}
+        .nos{
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .nos .nos-text{
+            border: 1px solid rgb(55, 167, 207);
+            margin: 20px 5px;
+            border-radius: 15px;
+        }
+        
+        .nos .nos-text{
+            flex-direction: column;
+            color: rgb(55, 167, 207);
+        }
+
+        .nos .nos-text h1{
+            padding: 0px;
+        }
+        
+        .nos .nos-text p{
+            padding: 0px;
+        }
+    
+        .nos .nos-seg .col-6{
+            width: 25%;
+        }
+        
+        .nos .nos-seg{
+            border: 1px solid rgb(55, 167, 207);
+            margin: 20px 0px;
+            border-radius: 15px;
+        }
+        
+    
+        .nos .nos-seg img{
+            width: 100%;
+            margin-bottom: -4px;
+            border-radius: 0px 0px 14px 14px
+        }
+        
+        .nos .nos-cap{
+            border: 1px solid rgb(55, 167, 207);
+            border-radius: 15px;
+        }
+        .nos .nos-cap>div>h2{
+            color: rgb(55, 167, 207);
+        }
+        .nos .nos-cap>div>p{
+            color: rgb(55, 167, 207);
+        }
+        .nos .nos-cap>img{
+            margin-bottom: -4px;
+            border-radius: 0px 0px 14px 14px;
+        }
+        
+    
+        /*---EQUIPOS--*/  
+
+
+        .equipo .especificacion .col-4{width: 50%;}
+        .equipo .especificacion .col-5{width: 35%;}
+
+        .equipo .especificacion img{
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+        }
+        
+        .equipo .especificacion .espec-equipo{
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            }
+
+        .benef-titulo{
+            justify-content: center;
+            font-size: 40px;
+            color:  rgb(55, 167, 207);
+        }
+        .benef-titulo>.benef>div{
+            padding: 2%;
+            display: flex;
+            text-align: center;
+        }
+        .benef-titulo>.benef>div>div{
+            border: 2px solid rgb(55, 167, 207);
+            margin: auto;
+        }
+        
+        .benef>div>div>img{
+            object-fit: scale-down;
+            width: 100%;
+            height: 300px;
+        }
+    
+        .benef>div>{
+            flex-direction: row;
+        }
+        .div-alq-contenedor{
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0;
+            }
+        
+        .div-alq-contenedor{
+            padding: 0;
+        }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .inicio .inicio-parrafo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.inicio .inicio-parrafo h1{
+            margin-top: 10%;
+            color: rgb(55, 167, 207);
+            font-size: 5vw;
+}
+.inicio .imagenes{
+    display: flex;
+}
+.inicio .imagenes .img-inicio{
+    display: flex;
+}
+.inicio .imagenes .img-inicio .beltive{
+                opacity: 2;
+                transition: opacity 2s ease-out;
+                transform: translate(-90px, 120px);
+                transition: 0.5s;
+                border-radius: 15px;
+            }
+.inicio .imagenes .img-inicio .png{
+                opacity: 2;
+                transition: opacity 2s ease-out;
+                transform: translate(30px, 90px);
+                transition: 0.5s;
+                border-radius: 15px;
+            }
+.inicio .imagenes .img-inicio .bodyup{
+                opacity: 2;
+                transition: opacity 2s ease-out;
+                transform: translate(30px, -70px);
+                transition: 0.5s;
+                border-radius: 15px;
+            }
+.inicio .imagenes .img-inicio .crio{
+                opacity: 2;
+                transition: opacity 2s ease-out;
+                transform: translate(-50px, -160px);
+                transition: 0.5s;
+                border-radius: 15px;
+}
+.galeria .galeria-cuadro{
+    font-size: 30px;
+    color: rgb(55, 167, 207);
+    padding: 10% 0% 10% 5%;
+}
+.productos .productos-contenedor div{
+    margin: 90px;
+}
+
+/*---NOSOTROS--*/
+.nos{
+background-image: url(../img/consultasbeltive.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+width: 100%;
+height: 85vh;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+.nos{
+margin: 0;
+}
+.nos .nos-text h1{
+padding: 10px 10px;
+}
+
+/*---CONTACTANOS--*/
+
+.consulta{
+background-image: url(../img/consultasbeltive.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+width: 100%;
+height: 85vh;
+justify-content: center;
+margin: 0;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+    }
+

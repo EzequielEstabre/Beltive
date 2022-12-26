@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400&display=swap');
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.centrar{
+    text-align: center;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.migueprofe{
+    object-fit: scale-down;
+}

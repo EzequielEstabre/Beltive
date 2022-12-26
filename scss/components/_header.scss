@@ -1,0 +1,33 @@
+header{
+    .logo{
+        padding: 1%;
+        a{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 120px;
+            }
+        }
+    }
+    nav{
+        background-color: rgb(55, 167, 207);
+        padding: 1%;
+        font-size: x-large;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        a{
+            
+                text-decoration: none;
+                color: white;
+            &:hover{
+                    transform: scale(1.2);
+                    transition: .4s all;
+                    -webkit-transform: scale(1.2);
+                    -moz-transform: scale(1.2);
+                    -ms-transform: scale(1.2);
+                    -o-transform: scale(1.2);
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.pie{
+    align-items: center;
+    background-color: rgb(136, 174, 247);
+        .pie-contenedor{
+            flex-direction: row-reverse;
+            width: 100%;
+            img{
+                width: 40px;
+                height: 40px;
+                margin: 10px;
+                align-items: center;
+            }
+            }
+            .pie-texto{
+                    width: 600px;
+                    margin-left: 5%;
+                    h2{
+                        color: white;
+                        font-size: 20px;
+                        text-align: left;
+                }
+                p{
+                    color: white;
+                    font-size: 18px;
+                    text-align: left;
+            }
+    }
+}
